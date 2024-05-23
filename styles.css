@@ -1,0 +1,62 @@
+body {
+    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+.project {
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    bottom: 0;
+}
+img {
+    width: 200px; /* Set the width of the image */
+    height: auto; /* Maintain the aspect ratio */
+    position: relative; /* Set the position to relative */
+    top: -20px; /* Move the image 20 pixels down from its normal position */
+    left: 20%; /* Move the image horizontally to the center */
+    transform: translateX(-70%); /* Adjust the position to center horizontally */
+    border-radius: 10%; /* Creates a circular shape */
+ 
+}
+#about {
+    padding-bottom: 50px; /* Add padding to the bottom of the "About Me" section */
+}
+
+#contact {
+    margin-top: 50px; /* Add margin to the top of the contact section */
+}
